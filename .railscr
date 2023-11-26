@@ -1,0 +1,7 @@
+--skip-action-mailer
+--skip-action-mailbox
+--asset-pipeline=propshaft
+--skip-jbuilder
+--skip-system-test
+--css=tailwind
+--database=postgresql

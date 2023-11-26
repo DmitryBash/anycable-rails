@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if ! command -v hivemind &> /dev/null
+then
+  echo "Please, install hivemind. See https://github.com/DarthSim/hivemind"
+fi
+
+hivemind Procfile.dev
